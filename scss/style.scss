@@ -1,7 +1,52 @@
 @import 'vars';
 @import 'mixin';
 
-*{
-    margin: 0%;
-    padding: 0%;
+@include main;
+
+section{
+    @include clearfix;
+    padding: 5em 15em; // pomera sadrzaj 5 em od gornje i donje ivice i 15 sa leve i desne,
+    text-align: center; // centrira sadrzaj.
+    h3{
+        text-transform: uppercase;
+        margin-bottom: 2em;
+    }
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    padding: 2em 17em;
+    background-image: url(../slike/background.jpg);
+    background-size: cover;
+
+    h1, h2{
+        color: #fff;
+        font-weight: normal;
+    }
+
+    h1{
+        font-size: 3em;
+        border-bottom: 1px solid $main_red;
+        margin: 25% auto 0;
+        width: 60%;
+    }
+
+
+}
+
+header{
+    background-color: white;
+    height: 3em;
+    padding: 0 0.5em;
+
+    nav{
+        float: right;   // pozicionira element
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;  // horizontalno ih postavlja 
+            }
+        }
+    }
 }

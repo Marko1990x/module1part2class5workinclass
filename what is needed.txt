@@ -3,3 +3,6 @@ licence
 git ignore 
 
 variables mixins sass ,  ugnjezdeni selektori.
+clearfix.
+
+responsive
