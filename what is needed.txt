@@ -1,0 +1,5 @@
+git - podesavanje - bez push na git hub
+licence
+git ignore 
+
+variables mixins sass ,  ugnjezdeni selektori.
